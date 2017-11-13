@@ -1,0 +1,36 @@
+#progressbarcontainer{
+    position: relative;
+    margin: 2% 15%;
+    width: 70%;
+    height: 2px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #dddddd;
+    padding: 1px;
+    box-shadow: 0 0 10px #153687;
+    cursor: pointer;
+}
+#divtext{
+    position: relative;
+    margin: 5% 15% 0% 15%;
+    width: 70%;
+    color: #ffffff;
+    -webkit-transition: color .5s; 
+    transition: color .5s;
+}
+#progressbar{
+    position: relative;
+    z-index: 1;
+    width: 0%;
+    left:0;
+    height: 100%;
+    background-color: #153687;
+    -webkit-transition: width .5s; 
+    transition: width .5s;
+    box-shadow: 0 0 10px #153687;
+    
+}
+body{
+    background-color: grey
+}
+
