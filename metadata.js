@@ -1,4 +1,4 @@
-// lis of DOM UI elements which will receive attribute settings from metadata values
+// list of DOM UI elements which will receive attribute settings from metadata values
 const progressbar = document.getElementById('progressbar');
 const divtext = document.getElementById('divtext');
 
