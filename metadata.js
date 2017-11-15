@@ -3,7 +3,7 @@ const progressbar = document.getElementById('progressbar');
 const divtext = document.getElementById('divtext');
 
 // insert API call here and fill metadata values with response data
-// var percentagefalse = response.data.precentagefalse;
+// example: var percentagefalse = response.data.precentagefalse;
 const percentagefalse = '80%';
 const percentagetrue = '0%';
 
